@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "tailwindcss build -i tailwind.css -o static/css/tailwind.css && ./node_modules/.bin/esbuild view/web_components/index.mjs --bundle --outfile=static/js/components.js"
   },

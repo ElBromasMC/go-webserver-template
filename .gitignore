@@ -1,32 +1,21 @@
-# If you prefer the allow list template instead of the deny list, see community template:
-# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
-#
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
-
-# Test binary, built with `go test -c`
 *.test
-
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
-
-# Go workspace file
 go.work
 
-# node modules
+# Heaviest thing on earth
 node_modules
 
-# air build files
-tmp
-
-# task file temporary files
+# Task file temporary files
 .task
 
-# Env file
+# Dotenv file
 .env
 
-# Credits to https://github.com/bnprtr/go-templ-htmx-template
+# Images store
+images
+
+# Build artifacts
+build
+tmp
+assets/static/css/tailwind.css
+assets/static/js/main.js
+view/**/*_templ.go
