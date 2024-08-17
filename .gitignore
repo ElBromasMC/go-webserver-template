@@ -16,6 +16,6 @@ images
 # Build artifacts
 build
 tmp
-assets/static/css/tailwind.css
-assets/static/js/main.js
+static/css/tailwind.css
+static/js/components.js
 view/**/*_templ.go
